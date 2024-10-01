@@ -1,0 +1,8 @@
+kubectl apply -f .\sample-pod.yml สร้าง
+kubectl get all
+kubectl delete pod client-pod
+docker pull imsuriyapi/todo-app:v4 
+kubectl delete all --all
+kubectl apply -f .\client-deployment.yml
+kubectl delete pods client-deployment-6d87bd56c5-sdfxl
+kubectl apply -f .

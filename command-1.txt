@@ -6,3 +6,7 @@ kubectl delete all --all
 kubectl apply -f .\client-deployment.yml
 kubectl delete pods client-deployment-6d87bd56c5-sdfxl
 kubectl apply -f .
+
+http://localhost:30002/api/health
+docker pull mongo
+http://localhost:30002/api/todo
